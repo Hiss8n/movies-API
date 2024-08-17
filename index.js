@@ -2,6 +2,7 @@ const express=require('express')
 const cors=require('cors')
 require('dotenv').config()
 require('./db/movise.js')
+require('./lodash.js')
 
 const Router=require('./Routers/movie-Routers.js')
 
